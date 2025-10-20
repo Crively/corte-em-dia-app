@@ -1,8 +1,12 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 
-export default function BookingSection(){
+export default function Agenda(){
+const navigation = useNavigation();
+
+
 return (
 <View style={styles.card}>
 <Text style={styles.heading}>Agende Seu Corte Aqui:</Text>
@@ -15,7 +19,7 @@ return (
 </TouchableOpacity>
 
 
-<TouchableOpacity style={[styles.btn, styles.ok]}>
+<TouchableOpacity style={[styles.btn, styles.ok]} onPress={() => navigation.navigate('Booking')}>
 <Text style={styles.btnText}>Agendar ✅</Text>
 </TouchableOpacity>
 </View>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
-import AppContainer from './src/Main';
+import AppContainer from './src/AppContainer';
 
 
 export default function App() {
