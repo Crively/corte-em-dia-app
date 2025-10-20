@@ -29,7 +29,7 @@ return (
 
 
 const styles = StyleSheet.create({
-card:{ backgroundColor:'#eee', padding:12, borderRadius:6, marginBottom:14 },
+card:{ backgroundColor:'#88adf1ff', padding:12, borderRadius:20, marginBottom:14 },
 heading:{ fontWeight:'700', marginBottom:6 },
 small:{ fontSize:12, marginBottom:8 },
 buttonsRow:{ flexDirection:'row', justifyContent:'space-between' },

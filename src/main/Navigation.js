@@ -11,7 +11,7 @@ const Stack = createNativeStackNavigator();
 export default function Navigation() {
 return (
 <Stack.Navigator>
-<Stack.Screen name="Home" options={{ title: 'Home' }} component={HomeScreen}/>
+<Stack.Screen name="Home" options={{ title: 'Home' }} style={{ backgroundColor: '#4970eeff' }} component={HomeScreen}/>
 <Stack.Screen name="Agendamento" options={{ title: 'Agendamento' }} component={Agendamento}/>
 <Stack.Screen name="Sua Conta" options={{ title: 'Sua Conta' }} component={MinhaConta}/>
 </Stack.Navigator>

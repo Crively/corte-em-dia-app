@@ -14,7 +14,7 @@ return (
 
 
 const styles = StyleSheet.create({
-card:{ backgroundColor:'#eee', padding:12, borderRadius:6, marginBottom:14 },
+card:{ backgroundColor:'#88adf1ff', padding:12, borderRadius:20, marginBottom:14 },
 heading:{ fontWeight:'700', marginBottom:6 },
 button:{ marginTop:8, backgroundColor:'#f0ad4e', padding:8, borderRadius:15 },
 buttonText:{ color:'#fff', fontWeight:'700', textAlign:'center' }
