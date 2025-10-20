@@ -6,6 +6,7 @@ export default function Agendamento() {
 const [name, setName] = useState('');
 const [service, setService] = useState('');
 const [date, setDate] = useState('');
+const [time, setTime] = useState('');
 
 
 const handleSubmit = () => {
@@ -13,10 +14,11 @@ if (!name || !service || !date) {
 Alert.alert('Erro', 'Por favor, preencha todos os campos.');
 return;
 }
-Alert.alert('Sucesso', `Corte agendado para ${name} em ${date} - ${service}`);
+Alert.alert('Sucesso', `Serviço agendado para ${name} em ${date} às ${time} - ${service}`);
 setName('');
 setService('');
 setDate('');
+setTime('');
 };
 
 
@@ -46,6 +48,13 @@ style={styles.input}
 placeholder="Data do agendamento (ex: 25/10/2025)"
 value={date}
 onChangeText={setDate}
+/>
+
+<TextInput
+style={styles.input}
+placeholder="Hora do agendamento (ex: 14:30)"
+value={time}
+onChangeText={setTime}
 />
 
 
@@ -85,4 +94,4 @@ buttonText: {
 color: '#fff',
 fontWeight: '700',
 },
-});
+}); 
