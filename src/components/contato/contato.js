@@ -6,9 +6,9 @@ export default function ContactsCard(){
 return (
 <View style={styles.card}>
 <Text style={styles.heading}>Contatos:</Text>
-<Text>• Contato Fictício</Text>
-<Text>• Rede fictícia</Text>
-<Text>• Rua fictícia, Cidade fictícia</Text>
+<Text>•📱 Contato Fictício</Text>
+<Text>•📸 Rede fictícia</Text>
+<Text>•📍 Rua fictícia, Cidade fictícia</Text>
 </View>
 );
 }

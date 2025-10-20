@@ -9,6 +9,7 @@ import Contatos from './components/contato/contato.js';
 
 export default function Main() {
 return (
+<View style={styles.container}>
 <ScrollView contentContainerStyle={styles.container}>
 <Header />
 <Servicos />
@@ -16,6 +17,7 @@ return (
 <Conta />
 <Contatos />
 </ScrollView>
+</View>
 );
 }
 
@@ -23,6 +25,7 @@ return (
 const styles = StyleSheet.create({
 container: {
 padding: 16,
-backgroundColor: '#fff',
+flex: 1,
+backgroundColor: '#ffffffff',
 },
-});
+});     

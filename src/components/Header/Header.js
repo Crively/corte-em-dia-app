@@ -13,5 +13,7 @@ return (
 
 const styles = StyleSheet.create({
 header: { marginVertical: 12 },
-title: { fontSize: 28, fontWeight: '700' },
+title: { fontSize: 35, fontWeight: '600' },
+justifyContent: 'center',
+alignItems: 'center',
 });

@@ -10,16 +10,16 @@ const navigation = useNavigation();
 return (
 <View style={styles.card}>
 <Text style={styles.heading}>Agende Seu Corte Aqui:</Text>
-<Text style={styles.small}>*Qualquer cancelamento será cobrada uma taxa</Text>
+<Text style={styles.small}>*Qualquer cancelamento será cobrada uma taxa*</Text>
 
 
 <View style={styles.buttonsRow}>
 <TouchableOpacity style={[styles.btn, styles.cancel]}>
-<Text style={styles.btnText}>Cancelar Agendamento</Text>
+<Text style={styles.btnText}>Cancelar Agendamento </Text>
 </TouchableOpacity>
 
 
-<TouchableOpacity style={[styles.btn, styles.ok]} onPress={() => navigation.navigate('Booking')}>
+<TouchableOpacity style={[styles.btn, styles.ok]} onPress={() => navigation.navigate('Agendamento')}>
 <Text style={styles.btnText}>Agendar ✅</Text>
 </TouchableOpacity>
 </View>
@@ -33,8 +33,8 @@ card:{ backgroundColor:'#eee', padding:12, borderRadius:6, marginBottom:14 },
 heading:{ fontWeight:'700', marginBottom:6 },
 small:{ fontSize:12, marginBottom:8 },
 buttonsRow:{ flexDirection:'row', justifyContent:'space-between' },
-btn:{ paddingVertical:10, paddingHorizontal:12, borderRadius:6 },
-cancel:{ backgroundColor:'#d9534f' },
+btn:{ paddingVertical:12, paddingHorizontal:12, borderRadius:15 },
+cancel:{ backgroundColor:'#ee3a37ff' },
 ok:{ backgroundColor:'#5cb85c' },
-btnText:{ color:'#fff', fontWeight:'600' }
+btnText:{ color:'#ffffffff', fontWeight:'600' }
 });
