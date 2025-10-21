@@ -15,8 +15,8 @@ return (
 
 
 const styles = StyleSheet.create({
-card:{ backgroundColor:'#f3be6eff', padding:12, borderRadius:20, marginBottom:24, borderColor:'#ffffffff', borderWidth:3 },
-heading:{ fontWeight:'700', marginBottom:6, fontSize:24, },   
+card:{ backgroundColor:'#3C2A21', padding:12, borderRadius:20, marginBottom:24, borderColor:'#C89F7B', borderWidth:3 },
+heading:{ fontWeight:'700', marginBottom:6, fontSize:24, color: '#C89F7B' },   
 
-item:{ marginVertical:7, marginHorizontal:10, padding:1, fontSize:15, fontWeight:'500' },
+item:{ marginVertical:7, marginHorizontal:10, padding:1, fontSize:15, fontWeight:'500', color: '#D3C6B5' },
 });

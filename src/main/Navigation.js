@@ -9,9 +9,12 @@ export default function Navigation() {
   return (
     <Stack.Navigator
       screenOptions={{
-        headerStyle: { backgroundColor: '#000' },
-        headerTintColor: '#fff', 
-        headerTitleStyle: { fontWeight: 'bold' },
+        headerStyle: { backgroundColor: '#1A1A1A' },
+        headerTintColor: '#C89F7B',
+        headerTitleStyle: { 
+          fontWeight: 'bold',
+          fontSize: 33,
+        },
         headerTitleAlign: 'center',
       }}
     >
