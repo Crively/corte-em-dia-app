@@ -19,14 +19,7 @@ return (
 
 
 const styles = StyleSheet.create({
-card:{
-backgroundColor:'#88adf1ff',
-padding:12,
-borderRadius:20,
-marginBottom:14
-},
+card:{backgroundColor:'#f3be6eff', padding:12, borderRadius:20, marginBottom:14, borderColor:'#ffffffff', borderWidth:2,},
 heading:{fontSize:24, fontWeight:'700', marginBottom:6},
-item:{marginVertical:2},
-
-item:{marginVertical:5, marginHorizontal:5, padding:1},
+item:{marginVertical:5, marginHorizontal:5, padding:1, fontSize:15, fontWeight:'500'},
 });

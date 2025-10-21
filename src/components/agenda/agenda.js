@@ -9,7 +9,7 @@ const navigation = useNavigation();
 
 return (
 <View style={styles.card}>
-<Text style={styles.heading}>Agende Seu Corte Aqui:</Text>
+<Text style={styles.heading}>Agendamento</Text>
 <Text style={styles.small}>*Qualquer cancelamento será cobrada uma taxa*</Text>
 
 
@@ -29,9 +29,9 @@ return (
 
 
 const styles = StyleSheet.create({
-card:{ backgroundColor:'#88adf1ff', padding:12, borderRadius:20, marginBottom:14 },
-heading:{ fontWeight:'700', marginBottom:6 },
-small:{ fontSize:12, marginBottom:8 },
+card:{ backgroundColor:'#f3be6eff', padding:12, borderRadius:20, marginBottom:14,borderColor:'#ffffffff', borderWidth:2 },
+heading:{ fontWeight:'700', marginBottom:6, fontSize:24 },
+small:{ fontSize:15, marginBottom:8, fontWeight:'500' },
 buttonsRow:{ flexDirection:'row', justifyContent:'space-between' },
 btn:{ paddingVertical:12, paddingHorizontal:12, borderRadius:15 },
 cancel:{ backgroundColor:'#ee3a37ff' },

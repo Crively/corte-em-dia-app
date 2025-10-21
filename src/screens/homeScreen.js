@@ -23,6 +23,6 @@ return (
 const styles = StyleSheet.create({
 container: {
 padding: 16,
-backgroundColor: '#4970eeff',
+backgroundColor: '#000000ff',
 },
 });

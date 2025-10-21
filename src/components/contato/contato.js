@@ -15,8 +15,8 @@ return (
 
 
 const styles = StyleSheet.create({
-card:{ backgroundColor:'#88adf1ff', padding:12, borderRadius:20, marginBottom:24 },
-heading:{ fontWeight:'700', marginBottom:6 },   
+card:{ backgroundColor:'#f3be6eff', padding:12, borderRadius:20, marginBottom:24, borderColor:'#ffffffff', borderWidth:3 },
+heading:{ fontWeight:'700', marginBottom:6, fontSize:24, },   
 
-item:{ marginVertical:7, marginHorizontal:10, padding:1 },
+item:{ marginVertical:7, marginHorizontal:10, padding:1, fontSize:15, fontWeight:'500' },
 });

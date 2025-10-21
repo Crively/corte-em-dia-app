@@ -12,8 +12,6 @@ return (
 
 
 const styles = StyleSheet.create({
-header: { marginVertical: 12 },
-title: { fontSize: 35, fontWeight: '600' },
-justifyContent: 'center',
-alignItems: 'center',
+header: { marginVertical: 3, padding: 11 },
+title: { fontSize: 40, fontWeight: '800', color: '#fffefeff', textAlign: 'center' },
 });

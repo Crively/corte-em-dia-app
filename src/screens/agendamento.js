@@ -24,12 +24,12 @@ setTime('');
 
 return (
 <View style={styles.container}>
-<Text style={styles.title}>Agende seu corte</Text>
+<Text style={styles.title}>Agende Seu Corte Aqui:</Text>
 
 
 <TextInput
 style={styles.input}
-placeholder="Seu nome"
+placeholder="Seu Nome"
 value={name}
 onChangeText={setName}
 />
@@ -37,7 +37,7 @@ onChangeText={setName}
 
 <TextInput
 style={styles.input}
-placeholder="Serviço desejado (ex: Corte, Barba)"
+placeholder="Serviço Desejado (ex: Corte, Barba)"
 value={service}
 onChangeText={setService}
 />
@@ -45,14 +45,14 @@ onChangeText={setService}
 
 <TextInput
 style={styles.input}
-placeholder="Data do agendamento (ex: 25/10/2025)"
+placeholder="Data do Agendamento (ex: 25/10/2025)"
 value={date}
 onChangeText={setDate}
 />
 
 <TextInput
 style={styles.input}
-placeholder="Hora do agendamento (ex: 14:30)"
+placeholder="Hora do Agendamento (ex: 14:30)"
 value={time}
 onChangeText={setTime}
 />
@@ -70,24 +70,27 @@ const styles = StyleSheet.create({
 container: {
 flex: 1,
 padding: 16,
-backgroundColor: '#fff',
+backgroundColor: '#000000ff',
 },
 title: {
-fontSize: 22,
+fontSize: 30,
 fontWeight: '700',
-marginBottom: 20,
+marginBottom: 30,
+color: '#ffffff',
 },
 input: {
+backgroundColor: '#f3be6eff',
 borderWidth: 1,
-borderColor: '#ccc',
-borderRadius: 6,
-padding: 10,
-marginBottom: 12,
+borderColor: '#000000ff',
+borderRadius: 14,
+padding: 14,
+marginBottom: 18,
+fontSize: 16,
 },
 button: {
 backgroundColor: '#5cb85c',
 padding: 14,
-borderRadius: 6,
+borderRadius: 14,
 alignItems: 'center',
 },
 buttonText: {

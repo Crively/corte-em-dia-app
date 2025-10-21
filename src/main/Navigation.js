@@ -1,19 +1,36 @@
-import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HomeScreen from '../screens/homeScreen.js';
+import Home from '../screens/homeScreen.js';
 import Agendamento from '../screens/agendamento.js';
 import MinhaConta from '../screens/minhaConta.js';
 
-
 const Stack = createNativeStackNavigator();
 
-
 export default function Navigation() {
-return (
-<Stack.Navigator>
-<Stack.Screen name="Home" options={{ title: 'Home' }} style={{ backgroundColor: '#4970eeff' }} component={HomeScreen}/>
-<Stack.Screen name="Agendamento" options={{ title: 'Agendamento' }} component={Agendamento}/>
-<Stack.Screen name="Sua Conta" options={{ title: 'Sua Conta' }} component={MinhaConta}/>
-</Stack.Navigator>
-);
+  return (
+    <Stack.Navigator
+      screenOptions={{
+        headerStyle: { backgroundColor: '#000' },
+        headerTintColor: '#fff', 
+        headerTitleStyle: { fontWeight: 'bold' },
+        headerTitleAlign: 'center',
+      }}
+    >
+      <Stack.Screen
+        name="Home"
+        component={Home}
+        options={{ title: 'Home' }}
+        
+      />
+      <Stack.Screen
+        name="Agendamento"
+        component={Agendamento}
+        options={{ title: 'Agendar Corte' }}
+      />
+      <Stack.Screen
+        name="Minha Conta"
+        component={MinhaConta}
+        options={{ title: 'Minha Conta' }}
+      />
+    </Stack.Navigator>
+  );
 }
