@@ -32,6 +32,7 @@ style={styles.input}
 placeholder="Seu Nome"
 value={name}
 onChangeText={setName}
+placeholderTextColor='#1C1C1C'
 />
 
 
@@ -40,6 +41,7 @@ style={styles.input}
 placeholder="Serviço Desejado (ex: Corte, Barba)"
 value={service}
 onChangeText={setService}
+placeholderTextColor='#1C1C1C'
 />
 
 
@@ -48,6 +50,7 @@ style={styles.input}
 placeholder="Data do Agendamento (ex: 25/10/2025)"
 value={date}
 onChangeText={setDate}
+placeholderTextColor='#1C1C1C'
 />
 
 <TextInput
@@ -55,6 +58,7 @@ style={styles.input}
 placeholder="Hora do Agendamento (ex: 14:30)"
 value={time}
 onChangeText={setTime}
+placeholderTextColor='#1C1C1C'
 />
 
 
@@ -70,18 +74,18 @@ const styles = StyleSheet.create({
 container: {
 flex: 1,
 padding: 16,
-backgroundColor: '#000000ff',
+backgroundColor: '#c7ebecff',
 },
 title: {
 fontSize: 30,
 fontWeight: '700',
 marginBottom: 30,
-color: '#ffffff',
+color: '#1C1C1C',
 },
 input: {
-backgroundColor: '#f3be6eff',
+backgroundColor: '#ffffffff',
 borderWidth: 1,
-borderColor: '#000000ff',
+borderColor: '#1C1C1C',
 borderRadius: 14,
 padding: 14,
 marginBottom: 18,

@@ -13,5 +13,5 @@ return (
 
 const styles = StyleSheet.create({
 header: { marginVertical: 3, padding: 11 },
-title: { fontSize: 40, fontWeight: '800', color: '#C89F7B', textAlign: 'center' },
+title: { fontSize: 40, fontWeight: '800', color: '#1C1C1C', textAlign: 'center' },
 });

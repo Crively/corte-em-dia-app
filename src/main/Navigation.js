@@ -9,8 +9,8 @@ export default function Navigation() {
   return (
     <Stack.Navigator
       screenOptions={{
-        headerStyle: { backgroundColor: '#1A1A1A' },
-        headerTintColor: '#C89F7B',
+        headerStyle: { backgroundColor: '#c7ebecff' },
+        headerTintColor: '#1C1C1C',
         headerTitleStyle: { 
           fontWeight: 'bold',
           fontSize: 33,
@@ -30,7 +30,7 @@ export default function Navigation() {
         options={{ title: 'Agendar Corte' }}
       />
       <Stack.Screen
-        name="Minha Conta"
+        name="MinhaConta"
         component={MinhaConta}
         options={{ title: 'Minha Conta' }}
       />
