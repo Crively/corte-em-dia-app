@@ -6,7 +6,7 @@ import Navigation from './src/main/Navigation';
 
 export default function App() {
 return (
-<View style={{ flex: 1, backgroundColor: 'white' }}>
+<View style={{ flex: 1, backgroundColor: '#000000ff' }}>
     <NavigationContainer>
         <Navigation />
     </NavigationContainer>
@@ -16,6 +16,7 @@ return (
 const styles = StyleSheet.create({
   container: {
     flex: 1, 
-    backgroundColor: 'white',
+    backgroundColor: '#000000ff',
   },
-});
+}
+); 
